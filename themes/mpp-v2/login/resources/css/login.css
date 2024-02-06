@@ -5,8 +5,19 @@
     background: none;
 }
 
+:root {
+    --pf-global--active-color--100: #c00 !important;
+    --pf-global--active-color--200: #f4bebe !important;
+    --pf-global--active-color--300: #f32b2b !important;
+    --pf-global--active-color--400: #f77373 !important;
+    --pf-global--primary-color--100: #c00 !important;
+    --pf-global--primary-color--200: #800000 !important;
+    --pf-global--primary-color--light-100: #f77373 !important;
+    --pf-global--primary-color--dark-100: #c00 !important;
+}
+
 .login-pf body {
-    background: url("../img/keycloak-bg.png") no-repeat center center fixed;
+    background: url("../img/mpp-bg.png") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
 }
